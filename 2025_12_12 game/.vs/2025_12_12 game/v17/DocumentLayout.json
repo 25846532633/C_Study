@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|solutionrelative:2025_12_12 game\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|solutionrelative:2025_12_12 game\\game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3039352E-EEF2-4EF4-9693-BBA4D694BA1F}|2025_12_12 game\\2025_12_12 game.vcxproj|solutionrelative:2025_12_12 game\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.c",
+              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.c",
+              "RelativeDocumentMoniker": "2025_12_12 game\\game.c",
+              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.c",
+              "RelativeToolTip": "2025_12_12 game\\game.c",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAswDYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-12T00:43:06.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "game.h",
+              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.h",
+              "RelativeDocumentMoniker": "2025_12_12 game\\game.h",
+              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\game.h",
+              "RelativeToolTip": "2025_12_12 game\\game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T00:39:12.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\test.c",
+              "RelativeDocumentMoniker": "2025_12_12 game\\test.c",
+              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_12 game\\2025_12_12 game\\test.c",
+              "RelativeToolTip": "2025_12_12 game\\test.c",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-12T00:38:13.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_25 Test10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD1BCB5-C690-4CFF-866C-59155164F61A}|2025_12_25 Test10\\2025_12_25 Test10.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_25 Test10\\2025_12_25 Test10\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8DD1BCB5-C690-4CFF-866C-59155164F61A}|2025_12_25 Test10\\2025_12_25 Test10.vcxproj|solutionrelative:2025_12_25 Test10\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test1.c",
+              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_25 Test10\\2025_12_25 Test10\\test1.c",
+              "RelativeDocumentMoniker": "2025_12_25 Test10\\test1.c",
+              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2025_12_25 Test10\\2025_12_25 Test10\\test1.c",
+              "RelativeToolTip": "2025_12_25 Test10\\test1.c",
+              "ViewState": "AQIAADoAAAAAAAAAAAAiwEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-15T07:26:12.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

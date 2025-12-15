@@ -1,0 +1,10 @@
+﻿  test1.c
+E:\CPlus\Algorithm Study\Algorithm\2025_12_25 Test10\2025_12_25 Test10\test1.c(75,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+  E:\CPlus\Algorithm Study\Algorithm\2025_12_25 Test10\2025_12_25 Test10\test1.c(75,9):
+  请考虑在格式字符串中使用“%zu”
+  
+E:\CPlus\Algorithm Study\Algorithm\2025_12_25 Test10\2025_12_25 Test10\test1.c(76,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+  E:\CPlus\Algorithm Study\Algorithm\2025_12_25 Test10\2025_12_25 Test10\test1.c(76,9):
+  请考虑在格式字符串中使用“%zu”
+  
+  2025_12_25 Test10.vcxproj -> E:\CPlus\Algorithm Study\Algorithm\2025_12_25 Test10\x64\Debug\2025_12_25 Test10.exe

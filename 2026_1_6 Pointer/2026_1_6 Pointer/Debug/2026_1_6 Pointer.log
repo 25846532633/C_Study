@@ -1,0 +1,3 @@
+﻿  test1.c
+E:\CPlus\Code\C_Study\2026_1_6 Pointer\2026_1_6 Pointer\test1.c(76,7): warning C4090: “初始化”: 不同的“const”限定符
+  2026_1_6 Pointer.vcxproj -> E:\CPlus\Code\C_Study\2026_1_6 Pointer\Debug\2026_1_6 Pointer.exe

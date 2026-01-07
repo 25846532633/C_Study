@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59CE0AA7-3335-48DF-BDA0-81B0AE8023BF}|2026_1_6 Pointer\\2026_1_6 Pointer.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59CE0AA7-3335-48DF-BDA0-81B0AE8023BF}|2026_1_6 Pointer\\2026_1_6 Pointer.vcxproj|solutionrelative:2026_1_6 Pointer\\test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59CE0AA7-3335-48DF-BDA0-81B0AE8023BF}|2026_1_6 Pointer\\2026_1_6 Pointer.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{59CE0AA7-3335-48DF-BDA0-81B0AE8023BF}|2026_1_6 Pointer\\2026_1_6 Pointer.vcxproj|solutionrelative:2026_1_6 Pointer\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "test2.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test2.c",
+              "RelativeDocumentMoniker": "2026_1_6 Pointer\\test2.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test2.c",
+              "RelativeToolTip": "2026_1_6 Pointer\\test2.c",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAkwHIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-07T08:16:18.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "test1.c",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test1.c",
               "RelativeDocumentMoniker": "2026_1_6 Pointer\\test1.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_6 Pointer\\2026_1_6 Pointer\\test1.c",
               "RelativeToolTip": "2026_1_6 Pointer\\test1.c",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwGQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-06T12:05:43.745Z",
               "EditorCaption": ""

@@ -1,4 +1,7 @@
 ﻿  qsort_use.c
-F:\CPlus\Code\C_Study\2025_12_30 函数指针\2025_12_30 函数指针\qsort_use.c(34,9): warning C4013: “strcmp”未定义；假设外部返回 int
-F:\CPlus\Code\C_Study\2025_12_30 函数指针\2025_12_30 函数指针\qsort_use.c(84,13): warning C4013: “strlen”未定义；假设外部返回 int
-  2025_12_30 函数指针.vcxproj -> F:\CPlus\Code\C_Study\2025_12_30 函数指针\x64\Debug\2025_12_30 函数指针.exe
+  杨氏矩阵.c
+  正在生成代码...
+E:\CPlus\Code\C_Study\2025_12_30 函数指针\2025_12_30 函数指针\qsort_use.c(34,9): warning C4013: “strcmp”未定义；假设外部返回 int
+E:\CPlus\Code\C_Study\2025_12_30 函数指针\2025_12_30 函数指针\qsort_use.c(84,13): warning C4013: “strlen”未定义；假设外部返回 int
+  LINK : 没有找到 E:\CPlus\Code\C_Study\2025_12_30 函数指针\x64\Debug\2025_12_30 函数指针.exe 或上一个增量链接没有生成它；正在执行完全链接
+  2025_12_30 函数指针.vcxproj -> E:\CPlus\Code\C_Study\2025_12_30 函数指针\x64\Debug\2025_12_30 函数指针.exe

@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="my_strlen.c" />
+    <ClCompile Include="my_strstr.cpp" />
+    <ClCompile Include="test2.c" />
+    <ClCompile Include="test3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

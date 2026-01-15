@@ -1,2 +1,6 @@
-﻿  test3.c
-  2025_1_13 字符串和字符串函数.vcxproj -> E:\CPlus\Code\C_Study\2025_1_13 字符串和字符串函数\x64\Debug\2025_1_13 字符串和字符串函数.exe
+﻿  my_strlen.c
+E:\CPlus\Code\C_Study\2025_1_13 字符串和字符串函数\2025_1_13 字符串和字符串函数\my_strlen.c(109,5): error C2084: 函数“int my_strcmp(const char *,const char *)”已有主体
+  E:\CPlus\Code\C_Study\2025_1_13 字符串和字符串函数\2025_1_13 字符串和字符串函数\my_strlen.c(97,5):
+  参见“my_strcmp”的前一个定义
+  
+E:\CPlus\Code\C_Study\2025_1_13 字符串和字符串函数\2025_1_13 字符串和字符串函数\my_strlen.c(134,24): warning C4090: “=”: 不同的“const”限定符

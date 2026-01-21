@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|solutionrelative:2026_1_19 struct_union_enum\\test4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|solutionrelative:2026_1_19 struct_union_enum\\test3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|solutionrelative:2026_1_19 struct_union_enum\\test2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B177D802-DB9F-4170-860F-4A7FAA2B5DD4}|2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum.vcxproj|solutionrelative:2026_1_19 struct_union_enum\\test1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test4.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test4.c",
+              "RelativeDocumentMoniker": "2026_1_19 struct_union_enum\\test4.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test4.c",
+              "RelativeToolTip": "2026_1_19 struct_union_enum\\test4.c",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-19T05:37:39.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test3.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test3.c",
+              "RelativeDocumentMoniker": "2026_1_19 struct_union_enum\\test3.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test3.c",
+              "RelativeToolTip": "2026_1_19 struct_union_enum\\test3.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-19T03:47:34.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test2.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test2.c",
+              "RelativeDocumentMoniker": "2026_1_19 struct_union_enum\\test2.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test2.c",
+              "RelativeToolTip": "2026_1_19 struct_union_enum\\test2.c",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-19T02:54:54.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test1.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test1.c",
+              "RelativeDocumentMoniker": "2026_1_19 struct_union_enum\\test1.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_1_19 struct_union_enum\\2026_1_19 struct_union_enum\\test1.c",
+              "RelativeToolTip": "2026_1_19 struct_union_enum\\test1.c",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-19T02:18:57.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

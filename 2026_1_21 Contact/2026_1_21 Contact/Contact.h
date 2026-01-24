@@ -22,12 +22,19 @@ typedef struct PeoInfo
 	char addr[ADDR_MAX];
 }PeoInfo;
 
-
+//动态通讯录的版本
 typedef struct Contact
 {
-	PeoInfo data[MAX];
-	int sz;//记录当前通讯录中存放的个人信息的个数
+	PeoInfo* data;//存放数据
+	int sz;//记录的时当前通讯录中存放的人的信息个数
+	int capacity;//记录的是通讯录的当前容量
 }Contact;
+
+//typedef struct Contact
+//{
+//	PeoInfo data[MAX];
+//	int sz;//记录当前通讯录中存放的个人信息的个数
+//}Contact;
 
 //初始化通讯录
 void InitContact(Contact* pc);
@@ -50,3 +57,6 @@ void ModifyContact(Contact* pc);
 //排序
 void sort_age(Contact* pc);
 void sort_name(Contact* pc);
+
+//销毁通讯录
+void DestroyContact(Contact* pc);

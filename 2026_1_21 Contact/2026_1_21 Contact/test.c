@@ -68,9 +68,8 @@ int main()
 				sort_name(&con);
 			}
 			break;
-			break;
 		case EXIT:
-			//DestroyContact(&con);
+			DestroyContact(&con);
 			printf("�˳�ͨѶ¼\n");
 			break;
 		default:

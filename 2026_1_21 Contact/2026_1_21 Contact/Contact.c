@@ -4,18 +4,42 @@ void InitContact(Contact* pc)
 {
 	assert(pc);
 	pc->sz = 0;
-	memset(pc->data, 0, sizeof(pc->data));
+	pc->capacity = DEFAULT_SZ;
+	pc->data = calloc(pc->capacity, sizeof(PeoInfo));
+	if (pc->data == NULL)
+	{
+		perror("InitContact->calloc");
+		return;
+	}
 }
+	
+void CheckCapacity(Contact* pc)
+{
+	if (pc->sz == pc->capacity)
+	{
+		PeoInfo* ptr = (PeoInfo*)realloc(pc->data, (pc->capacity + DEFAULT_INC) *
+			sizeof(PeoInfo));
+		if (ptr != NULL)
+		{
+			pc->data = ptr;
+			pc->capacity += DEFAULT_INC;
+			printf("扩容成功\n");
+		}
+		else
+		{
+			perror("AddContact->realloc");
+			return;
+		}
+	}
+
+}
+
 
 //增加联系人
 void AddContact(Contact* pc)
 {
 	assert(pc);
-	if (pc->sz == MAX)//满了
-	{
-		printf("当前通讯录已满.\n");
-		return;
-	}
+	CheckCapacity(pc);//检查容量
 	//没满就加
 	printf("请输入名字:");
 	scanf("%s", pc->data[pc->sz].name);
@@ -156,4 +180,13 @@ void sort_name(Contact* pc)
 {
 	assert(pc);
 	qsort(pc->data, pc->sz, sizeof(PeoInfo), Compare2);
+}
+
+
+void DestroyContact(Contact* pc)
+{
+	free(pc->data);
+	pc->sz = 0;
+	pc->capacity = 0;
+	pc->data = NULL;
 }

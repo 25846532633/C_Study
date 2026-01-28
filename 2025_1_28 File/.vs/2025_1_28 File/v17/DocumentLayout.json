@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92BB91C5-E898-4A62-AF65-699A769540D7}|2025_1_28 File\\2025_1_28 File.vcxproj|E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92BB91C5-E898-4A62-AF65-699A769540D7}|2025_1_28 File\\2025_1_28 File.vcxproj|solutionrelative:2025_1_28 File\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BB91C5-E898-4A62-AF65-699A769540D7}|2025_1_28 File\\2025_1_28 File.vcxproj|E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.txt||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{92BB91C5-E898-4A62-AF65-699A769540D7}|2025_1_28 File\\2025_1_28 File.vcxproj|solutionrelative:2025_1_28 File\\test.txt||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 272,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.txt",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.txt",
+              "RelativeDocumentMoniker": "2025_1_28 File\\test.txt",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.txt",
+              "RelativeToolTip": "2025_1_28 File\\test.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-28T03:06:28.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.c",
+              "RelativeDocumentMoniker": "2025_1_28 File\\test.c",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2025_1_28 File\\2025_1_28 File\\test.c",
+              "RelativeToolTip": "2025_1_28 File\\test.c",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAQwNEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-28T03:04:41.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,29 @@
 #include "Contact.h"
+void CheckCapacity(Contact* pc);
+
+//加载文件信息到通讯录
+void LoadContact(Contact* pc)
+{
+	FILE* pf = fopen("contact.txt", "rb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return;
+	}
+	//读文件
+	PeoInfo temp = { 0 };
+	while (fread(&temp, sizeof(PeoInfo), 1, pf))
+	{
+		CheckCapacity(pc);
+		pc->data[pc->sz] = temp;
+		pc->sz++;
+	}
+	//关闭文件
+	fclose(pf);
+	pf = NULL;
+}
+
+
 
 void InitContact(Contact* pc)
 {
@@ -11,6 +36,7 @@ void InitContact(Contact* pc)
 		perror("InitContact->calloc");
 		return;
 	}
+	LoadContact(pc);
 }
 	
 void CheckCapacity(Contact* pc)
@@ -189,4 +215,23 @@ void DestroyContact(Contact* pc)
 	pc->sz = 0;
 	pc->capacity = 0;
 	pc->data = NULL;
+}
+
+//保存信息到文件
+void SaveContact(Contact* pc)
+{
+	FILE* pf = fopen("contact.txt", "wb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return;
+	}
+	//写文件
+	for (int i = 0; i < pc->sz; i++)
+	{
+		fwrite(&(pc->data[i]), sizeof(PeoInfo), 1, pf);
+	}
+
+	fclose(pf);
+	pf = NULL;
 }

@@ -11,9 +11,20 @@ void test1()
 	LTPushBack(plist, 4);
 
 	LTPrint(plist);
-	printf("\n");
+	LTNode* find = ListFind(plist, 3);
+	LTPrint(plist);
+	ListInsert(find,10);
+	LTPrint(plist);
+	ListErase(find);
+	LTPrint(plist);
+	/*printf("\n");
 	LTPopBack(plist);
 	LTPrint(plist);
+	printf("\n");
+	ListPushFront(plist, 2);
+	LTPrint(plist);printf("\n");
+	ListPopFront(plist);
+	LTPrint(plist);*/
 }
 
 

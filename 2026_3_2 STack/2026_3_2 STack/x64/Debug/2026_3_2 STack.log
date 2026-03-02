@@ -1,0 +1,3 @@
+﻿  Queue.c
+E:\CPlus\Code\C_Study\2026_3_2 STack\2026_3_2 STack\Queue.c(34,12): warning C4098: “QueuePush”:“void”函数返回值
+  2026_3_2 STack.vcxproj -> E:\CPlus\Code\C_Study\2026_3_2 STack\x64\Debug\2026_3_2 STack.exe

@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|solutionrelative:2026_3_2 STack\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|solutionrelative:2026_3_2 STack\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|solutionrelative:2026_3_2 STack\\Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|solutionrelative:2026_3_2 STack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68E066D9-CD89-42E4-9174-02D2D9D97AC4}|2026_3_2 STack\\2026_3_2 STack.vcxproj|solutionrelative:2026_3_2 STack\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Stack.c",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.c",
               "RelativeDocumentMoniker": "2026_3_2 STack\\Stack.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.c",
               "RelativeToolTip": "2026_3_2 STack\\Stack.c",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAAXAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-02T12:43:21.998Z",
               "IsPinned": true,
@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "2026_3_2 STack\\Queue.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Queue.c",
               "RelativeToolTip": "2026_3_2 STack\\Queue.c",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwEAAAAALAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-02T12:58:44.742Z",
               "IsPinned": true,
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "2026_3_2 STack\\Queue.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Queue.h",
               "RelativeToolTip": "2026_3_2 STack\\Queue.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-02T12:58:38.717Z",
               "IsPinned": true,
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Stack.h",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.h",
               "RelativeDocumentMoniker": "2026_3_2 STack\\Stack.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Stack.h",
               "RelativeToolTip": "2026_3_2 STack\\Stack.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-02T12:43:11.651Z",
               "IsPinned": true,
@@ -90,17 +90,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Test.c",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Test.c",
               "RelativeDocumentMoniker": "2026_3_2 STack\\Test.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_2 STack\\2026_3_2 STack\\Test.c",
               "RelativeToolTip": "2026_3_2 STack\\Test.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-02T12:43:28.171Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",

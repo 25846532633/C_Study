@@ -1,3 +1,6 @@
-﻿  Queue.c
-E:\CPlus\Code\C_Study\2026_3_2 STack\2026_3_2 STack\Queue.c(34,12): warning C4098: “QueuePush”:“void”函数返回值
+﻿  Stack.c
+E:\CPlus\Code\C_Study\2026_3_2 STack\2026_3_2 STack\Stack.c(31,13): warning C4098: “STPush”:“void”函数返回值
+E:\CPlus\Code\C_Study\2026_3_2 STack\2026_3_2 STack\Stack.c(33,10): warning C4133: “=”: 从“ST *”到“STDataType *”的类型不兼容
+  Test.c
+  正在生成代码...
   2026_3_2 STack.vcxproj -> E:\CPlus\Code\C_Study\2026_3_2 STack\x64\Debug\2026_3_2 STack.exe

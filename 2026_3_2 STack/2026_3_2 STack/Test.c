@@ -26,11 +26,36 @@ void test1()
 
 }
 
+int test2()
+{
+	char* s = "()[]{}";
+	ST h;
+	STInit(&h);
+	while (*s)
+	{
+		if (*s == '('
+			|| *s == '[' ||
+			*s == '{') //◊Û¿®∫≈»Î’ª
+		{
+			STPush(&h, *s);
+		}
+		else
+		{
+			char t = STTop(&h);
+			if (*s != t)
+				return false;
+			else
+				STPop(&h);
+		}
+		s++;
+	}
+	return 1;
+}
 
 int main()
 {
 	//test1();
-	Queue q;
+	/*Queue q;
 	QueueInit(&q);
 	QueuePush(&q, 1);
 	QueuePush(&q, 2);
@@ -47,6 +72,7 @@ int main()
 		QueuePop(&q);
 	}
 
-	QueueDestroy(&q);
+	QueueDestroy(&q);*/
+	printf("%d",test2());
 	return 0;
 }

@@ -29,3 +29,4 @@ bool HeapEmpty(HP* php);
 void Swap(HPDataType* p1, HPDataType* p2);
 void AdjustUp(HPDataType* a, int child);
 void AdjustDown(HPDataType* a, int size, int parent);
+void HeapSort(int* a, int n);

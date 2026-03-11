@@ -26,7 +26,7 @@ void AdjustUp(HPDataType* a, int child)
 	int parent = (child - 1) / 2;
 	while (child > 0)
 	{
-		if (a[child] < a[parent])
+		if (a[child] > a[parent])
 		{
 			Swap(&a[child], &a[parent]);
 			child = parent;
@@ -71,12 +71,12 @@ void AdjustDown(HPDataType* a, int size, int parent)
 	{
 		//要判断一下左右两边那个更小，更小的才上去
 		//只是本身默认左边而已
-		if (child + 1 < size && a[child] > a[child + 1])
+		if (child + 1 < size && a[child] < a[child + 1])
 		{
 			child = child + 1;
 		}
 		
-		if (a[child] < a[parent])
+		if (a[child] > a[parent])
 		{
 			Swap(&a[child], &a[parent]);
 			parent = child;
@@ -120,4 +120,28 @@ bool HeapEmpty(HP* php)
 		return true;
 	else
 		return false;
+}
+
+void HeapSort(int* a, int n)
+{
+	// 建大堆
+	// O(N*logN)
+	/*for (int i = 1; i < n; i++)
+	{
+		AdjustUp(a, i);
+	}*/
+
+	// O(N)
+	for (int i = (n - 1 - 1) / 2; i >= 0; --i)
+	{
+		AdjustDown(a, n, i);
+	}
+
+	int end = n - 1;
+	while (end > 0)
+	{
+		Swap(&a[0], &a[end]);      // 将堆顶（最大元素）放到末尾
+		AdjustDown(a, end, 0);      // 重新调整堆结构
+		--end;                       // 缩小堆的范围
+	}
 }

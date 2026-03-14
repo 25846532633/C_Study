@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "2025_3_12 BinaryTree\\BinaryTree.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2025_3_12 BinaryTree\\2025_3_12 BinaryTree\\BinaryTree.c",
               "RelativeToolTip": "2025_3_12 BinaryTree\\BinaryTree.c",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAIwIEAAAANAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-12T14:03:46.213Z",
               "EditorCaption": ""
@@ -49,10 +49,9 @@
               "RelativeDocumentMoniker": "2025_3_12 BinaryTree\\BinaryTree.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2025_3_12 BinaryTree\\2025_3_12 BinaryTree\\BinaryTree.h",
               "RelativeToolTip": "2025_3_12 BinaryTree\\BinaryTree.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-12T13:57:49.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T13:57:49.982Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "2025_3_12 BinaryTree\\test.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-12T14:07:20.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:07:20.257Z"
             }
           ]
         }

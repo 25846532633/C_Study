@@ -9,6 +9,36 @@ TreeNode* BuyTreeNode(int x)
 	newnode->left = newnode->right = NULL;
 }
 
+// 通过前序遍历的数组"ABD##E#H##CF##G##"构建二叉树
+TreeNode* TreeCreate(char* a, int* pi)
+{
+	if (a[*pi] == '#')
+	{
+		(*pi)++;
+		return NULL;
+	}
+	TreeNode* root = (TreeNode*)malloc(sizeof(TreeNode));
+	if (root == NULL)
+	{
+		perror("malloc failed");
+		exit(-1);
+	}
+	root->data = a[(*pi)++];
+	root->left = TreeCreate(a, pi);
+	root->right = TreeCreate(a, pi);
+	return root;
+}
+
+void DestroyTree(TreeNode* root)
+{
+	if (root == NULL)
+		return;
+
+	DestroyTree(root->left);
+	DestroyTree(root->right);
+	free(root);
+}
+
 TreeNode* CreateTree()
 {
 	TreeNode* node1 = BuyTreeNode(1);

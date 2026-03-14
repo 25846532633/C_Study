@@ -26,3 +26,5 @@ int TreeHeight(TreeNode* root);
 int TreeLevelK(TreeNode* root, int k);
 //寻找值为x的结点
 TreeNode* TreeFind(TreeNode* root, BTDataType x);
+// 通过前序遍历的数组"ABD##E#H##CF##G##"构建二叉树
+TreeNode* TreeCreate(char* a, int* pi)

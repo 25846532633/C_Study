@@ -1,2 +1,8 @@
 ﻿  Sort.c
+E:\CPlus\Code\C_Study\2025_3_18 Sort\2025_3_18 Sort\Sort.c(412,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\CPlus\Code\C_Study\2025_3_18 Sort\2025_3_18 Sort\Sort.c(412,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\CPlus\Code\C_Study\2025_3_18 Sort\2025_3_18 Sort\Sort.c(413,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\CPlus\Code\C_Study\2025_3_18 Sort\2025_3_18 Sort\Sort.c(413,45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  test.c
+  正在生成代码...
   2025_3_18 Sort.vcxproj -> E:\CPlus\Code\C_Study\2025_3_18 Sort\x64\Debug\2025_3_18 Sort.exe

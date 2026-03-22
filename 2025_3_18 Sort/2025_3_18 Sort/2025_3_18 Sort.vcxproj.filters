@@ -21,9 +21,15 @@
     <ClCompile Include="Sort.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\2026_3_2 STack\2026_3_2 STack\Stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\2026_3_2 STack\2026_3_2 STack\Stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

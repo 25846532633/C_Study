@@ -5,9 +5,12 @@
 #include<stdlib.h>
 #include<stdbool.h>
 #include<time.h>
+#include <string.h>
 
 void PrintArray(int* a, int n);
+//²åÈëÅÅĞò
 void InsertSort(int* a, int n);
+//Ã°ÅİÅÅĞò
 void BubbleSort(int* a, int n);
 
 // Ï£¶ûÅÅĞò
@@ -18,3 +21,9 @@ void SelectSort(int* a, int n);
 void HeapSort(int* a, int n);
 //¿ìËÙÅÅĞò
 void QuickSort(int* a, int begin, int end);
+void QuickSortNonR(int* a, int begin, int end);
+//¹é²¢ÅÅĞò
+void MergeSort(int* a, int n);
+void MergeSortNonR(int* a, int n);
+//¼ÆÊıÅÅĞò
+void CountSort(int* a, int n);

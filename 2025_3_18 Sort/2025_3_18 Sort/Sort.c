@@ -48,6 +48,27 @@ void Swap(int* p1, int* p2)
 
 void BubbleSort(int* a, int n)
 {
+	for (int i = 0; i < n; i++)
+	{
+		int exchange = 0;
+		for (int j = 1; j < n - i; j++)
+		{
+			if (a[j - 1] > a[j])
+			{
+				exchange = 1;
+				Swap(&a[j - 1], &a[j]);
+			}
+		}
+		if (!exchange)
+			break;
+	}
+}
+
+
+
+
+void BubbleSort(int* a, int n)
+{
 	//每次都选出一个最大值交换到最后
 	//注：不是一次性选出，而是相邻元素交换得到的
 	for (int i = 0; i < n; i++)
@@ -100,6 +121,81 @@ void ShellSort(int* a, int n)
 
 void SelectSort(int* a, int n)
 {
+	int begin = 0, end = n - 1;
+	while (begin < end)
+	{
+		int min = begin, max = end;
+		for (int i = begin + 1; i < end; i++)
+		{
+			if (a[i] < a[min])
+			{
+				min = i;
+			}
+			if (a[i] > max)
+			{
+				max = i;
+			}
+		}
+		Swap(&a[min], &a[begin]);
+		if (max == begin)
+		{
+			max = min;
+		}
+		Swap(&a[max], &a[end]);
+
+		begin++;
+		end--;
+	}
+}
+
+void AdjustDown(int* a, int size, int parent)
+{
+	int child = parent * 2 + 1;
+	while (child < size)
+	{
+		if (child + 1 < size && a[child + 1] > a[child])
+		{
+			child = child + 1;
+		}
+		
+		if (a[child] > a[parent])
+		{
+			Swap(&a[child], &a[parent]);
+			parent = child;
+			child = parent * 2 + 1;
+		}
+		else
+		{
+			break;
+		}
+	}
+}
+
+void HeapSort(int* a, int n)
+{
+	//1.建立大堆
+	for (int i = (n - 1 - 1) / 2; i >= 0; i--)
+	{
+		AdjustDown(a, n, i);
+	}
+
+	//2.升序排序
+	int end = n - 1;
+	while (end > 0)
+	{
+		Swap(&a[0], &a[end]);
+		AdjustDown(a, n, 0);
+		end--;
+	}
+}
+
+
+
+
+
+
+void SelectSort(int* a, int n)
+{
 	//分别设置好开头和结尾
 	int begin = 0, end = n - 1;
 	while (begin < end)
@@ -113,7 +209,7 @@ void SelectSort(int* a, int n)
 			if (a[i] > max)
 				max = i;
 			if (a[i] < min)
-				min = begin;
+				min = i;
 		}
 		//分别放置到当前循环的末和尾
 		Swap(&a[min], &a[begin]);
@@ -232,6 +328,29 @@ int PartSort1(int* a, int begin, int end)
 	return left;
 }
 
+int PartSort1(int* a, int begin, int end)
+{
+	//找基准值
+	int midi = GetMidi(a, begin, end);
+	Swap(&a[midi], &a[begin]);
+
+	int left = begin, right = end;
+	int key = begin;//放在开头
+	//右边找比基准小的，左边找比基准大的，找到就交换一次
+	//不断重复 - 最后让基准值和left交换
+	while (left < right)
+	{
+		while (left < right && a[right] >= a[key])
+			--right;
+		while (left < right && a[left] <= a[key])
+			++left;
+		Swap(&a[left], &a[right]);
+	}
+	Swap(&a[left], &a[key]);
+	return left;
+}
+
+
 
 int PartSort2(int* a, int begin, int end)
 {
@@ -294,12 +413,14 @@ int PartSort3(int* a, int begin, int end)
 
 void QuickSort(int* a, int begin, int end)
 {
-	if (begin >= end)
+	if (begin >= end) //递归停止
 			return;
 
 	
+	//第一次快排分割的基准值
 	int key = PartSort3(a, begin, end);
 
+	//递归遍历两边
 	QuickSort(a, begin, key - 1);
 	QuickSort(a, key + 1, end);
 }
@@ -356,7 +477,7 @@ void _MergeSort(int* a, int begin, int end, int* tmp)
 	//目的是升序，谁小谁先插入
 	while (begin1 <= end1 && begin2 <= end2)
 	{
-		if (a[begin1] < a[begin2])
+		if (a[begin1] <= a[begin2])
 		{
 			tmp[i++] = a[begin1++];
 		}
@@ -499,3 +620,17 @@ void CountSort(int* a, int n)
 		}
 	}
 }
+
+
+int* a = (int*)malloc(sizeof(int) * n);
+if (a == NULL)
+{
+	perror("malloc failed");
+	exit(-1);
+}
+
+....
+
+//
+free(a);
+a = NULL;

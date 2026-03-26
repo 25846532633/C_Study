@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "2025_3_18 Sort\\Sort.c",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2025_3_18 Sort\\2025_3_18 Sort\\Sort.c",
               "RelativeToolTip": "2025_3_18 Sort\\Sort.c",
-              "ViewState": "AQIAAB0BAAAAAAAAAADwvycBAAABAAAA",
+              "ViewState": "AQIAAG0CAAAAAAAAAAAAAHsCAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-18T02:34:59.17Z",
               "IsPinned": true,
@@ -52,8 +52,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-18T02:35:05.065Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -69,8 +68,7 @@
               "RelativeToolTip": "..\\2026_3_2 STack\\2026_3_2 STack\\Stack.h",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-22T02:56:00.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T02:56:00.262Z"
             },
             {
               "$type": "Document",
@@ -82,8 +80,7 @@
               "RelativeToolTip": "2025_3_18 Sort\\test.c",
               "ViewState": "AQIAADQAAAAAAAAAAAAewD8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-18T02:34:52.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T02:34:52.663Z"
             }
           ]
         }

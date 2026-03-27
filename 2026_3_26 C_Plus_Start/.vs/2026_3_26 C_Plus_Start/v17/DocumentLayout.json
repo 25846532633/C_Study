@@ -11,7 +11,8 @@
       "RelativeMoniker": "D:0:0:{35076490-F2F4-47A2-8A22-E44C8033C21C}|2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start.vcxproj|solutionrelative:2026_3_26 C_Plus_Start\\area.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35076490-F2F4-47A2-8A22-E44C8033C21C}|2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start.vcxproj|D:\\SOFTMGR\\SOFTMGR2\\VS\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\ISTREAM||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{35076490-F2F4-47A2-8A22-E44C8033C21C}|2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start\\area.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{35076490-F2F4-47A2-8A22-E44C8033C21C}|2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start.vcxproj|solutionrelative:2026_3_26 C_Plus_Start\\area.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,21 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 272,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "istream",
-              "DocumentMoniker": "D:\\SoftMgr\\SoftMgr2\\VS\\VC\\Tools\\MSVC\\14.39.33519\\include\\istream",
-              "ToolTip": "D:\\SoftMgr\\SoftMgr2\\VS\\VC\\Tools\\MSVC\\14.39.33519\\include\\istream",
-              "ViewState": "AQIAABQDAAAAAAAAAAAWwCQDAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-26T03:39:44.457Z",
+              "Title": "area.cpp",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start\\area.cpp",
+              "RelativeDocumentMoniker": "2026_3_26 C_Plus_Start\\area.cpp",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start\\area.cpp",
+              "RelativeToolTip": "2026_3_26 C_Plus_Start\\area.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-26T11:43:04.303Z",
               "EditorCaption": ""
             },
             {
@@ -46,7 +55,7 @@
               "RelativeDocumentMoniker": "2026_3_26 C_Plus_Start\\area.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start\\area.h",
               "RelativeToolTip": "2026_3_26 C_Plus_Start\\area.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAANAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-26T02:57:50.111Z",
               "EditorCaption": ""
@@ -59,7 +68,7 @@
               "RelativeDocumentMoniker": "2026_3_26 C_Plus_Start\\test.cpp",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_3_26 C_Plus_Start\\2026_3_26 C_Plus_Start\\test.cpp",
               "RelativeToolTip": "2026_3_26 C_Plus_Start\\test.cpp",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAuwIgAAAAAAAAA",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAmwN8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-26T02:42:17.884Z",
               "EditorCaption": ""

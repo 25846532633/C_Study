@@ -39,18 +39,18 @@ using namespace std;
 //	return 0;
 //}
 
-int Add(int left, double right)
-{
-	cout << "int" << endl;
-	return left + right;
-}
-
-int Add(double left, int right)
-{
-	cout << "change" << endl;
-	return left + right;
-
-}
+//int Add(int left, double right)
+//{
+//	cout << "int" << endl;
+//	return left + right;
+//}
+//
+//int Add(double left, int right)
+//{
+//	cout << "change" << endl;
+//	return left + right;
+//
+//}
 
 //double Add(double left, double right)
 //{
@@ -133,12 +133,94 @@ int Add(double left, int right)
 //	return 0;
 //}
 
+//int main()
+//{
+//	int a = 10;
+//	int& ra = a;
+//	ra = 20;
+//	int* pa = &a;
+//	*pa = 20;
+//	return 0;
+//}
+
+//
+//int main()
+//{
+//	int ret = 0;
+//	ret = Add(1, 2);
+//	return 0;
+//}
+
+//int TestAuto()
+//{
+//	return 10;
+//}
+
+//void TestAuto(int a = 0)
+//{
+//	auto a = 1, b = 2;
+//	auto c = 3, d = 4;  // 该行代码会编译失败，因为c和d的初始化表达式类型不同
+//	
+//
+//}
+//void TestAuto(int a = 0)
+//{
+//	int a[] = { 1,2,3 };
+//	auto b[] = { 2,3,4 };
+//}
+
+//int main()
+//{
+//	/*int a = 10;
+//	auto b = a;
+//	auto c = 'a';
+//	auto d = TestAuto();
+//	cout << typeid(b).name() << endl;
+//	cout << typeid(c).name() << endl;
+//	cout << typeid(d).name() << endl;
+//	return 0;*/
+//	/*int x = 10;
+//	auto a = &x;
+//	auto* b = &x;
+//	auto& c = x;
+//	cout << typeid(a).name() << endl;
+//	cout << typeid(b).name() << endl;
+//	cout << typeid(c).name() << endl;
+//	*a = 20;
+//	*b = 30;
+//	c = 40;*/
+//	TestAuto();
+//}
+
+//
+//int main()
+//{
+//	int a[] = { 1,2,3 };
+//
+//	for (auto e : a)
+//	{
+//		cout << e << " ";
+//	}
+//	cout << endl;
+//	for (auto& e : a)
+//	{
+//		e *= 2;
+//		cout << e << " ";
+//	}
+//}
+
+void f(int)
+{
+	cout << "f(int)" << endl;
+}
+void f(int*)
+{
+	cout << "f(int*)" << endl;
+}
 int main()
 {
-	int a = 10;
-	int& ra = a;
-	ra = 20;
-	int* pa = &a;
-	*pa = 20;
+	f(0);
+	f(nullptr);
+	f((int*)NULL);
 	return 0;
 }

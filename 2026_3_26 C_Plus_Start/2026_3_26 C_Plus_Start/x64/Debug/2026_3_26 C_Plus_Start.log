@@ -1,4 +1,2 @@
 ﻿  test.cpp
-E:\CPlus\Code\C_Study\2026_3_26 C_Plus_Start\2026_3_26 C_Plus_Start\test.cpp(45,14): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
-E:\CPlus\Code\C_Study\2026_3_26 C_Plus_Start\2026_3_26 C_Plus_Start\test.cpp(51,14): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
   2026_3_26 C_Plus_Start.vcxproj -> E:\CPlus\Code\C_Study\2026_3_26 C_Plus_Start\x64\Debug\2026_3_26 C_Plus_Start.exe

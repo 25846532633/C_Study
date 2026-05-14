@@ -1,6 +1,8 @@
 //#include "Stack.h"
 //#include "queue.h"
 #include "priority_queue.h"
+#include "List.h"
+
 
 //void test_op1() {
 //    srand(time(0));
@@ -108,11 +110,25 @@
 //    return t1.top();
 //}
 
+void test4()
+{
+	bite::list<int> lt = { 1,2,3,4 };
+	bite::list<int>::reverse_iterator rit = lt.rbegin();
+	while (rit != lt.rend())
+	{
+		cout << *rit << " ";
+		++rit;
+	}
+	cout << endl;
+}
+
+
 int main()
 {
 	//test_op1();
     //test2();
    // test3();
-    bite::test_priority_queue();
+    /*bite::test_priority_queue();*/
+	test4();
 	return 0;
 }

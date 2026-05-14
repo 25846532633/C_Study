@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\priority_queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|solutionrelative:2026_5_11 stack_queue\\priority_queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|solutionrelative:2026_5_11 stack_queue\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|solutionrelative:2026_5_11 stack_queue\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\priority_queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|solutionrelative:2026_5_11 stack_queue\\priority_queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF7DA4E2-A9B6-4BF6-8E6B-2E395270E6A3}|2026_5_11 stack_queue\\2026_5_11 stack_queue.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 272,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "List.h",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\List.h",
+              "RelativeDocumentMoniker": "2026_5_11 stack_queue\\List.h",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\List.h",
+              "RelativeToolTip": "2026_5_11 stack_queue\\List.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-14T10:28:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "priority_queue.h",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\priority_queue.h",
               "RelativeDocumentMoniker": "2026_5_11 stack_queue\\priority_queue.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\priority_queue.h",
               "RelativeToolTip": "2026_5_11 stack_queue\\priority_queue.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-11T05:16:45.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "queue.h",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\queue.h",
               "RelativeDocumentMoniker": "2026_5_11 stack_queue\\queue.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\queue.h",
               "RelativeToolTip": "2026_5_11 stack_queue\\queue.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-11T03:32:48.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Stack.h",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\Stack.h",
               "RelativeDocumentMoniker": "2026_5_11 stack_queue\\Stack.h",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\Stack.h",
               "RelativeToolTip": "2026_5_11 stack_queue\\Stack.h",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-11T03:14:35.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "test.cpp",
               "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\test.cpp",
               "RelativeDocumentMoniker": "2026_5_11 stack_queue\\test.cpp",
               "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_5_11 stack_queue\\2026_5_11 stack_queue\\test.cpp",
               "RelativeToolTip": "2026_5_11 stack_queue\\test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-11T03:08:42.635Z",
               "EditorCaption": ""

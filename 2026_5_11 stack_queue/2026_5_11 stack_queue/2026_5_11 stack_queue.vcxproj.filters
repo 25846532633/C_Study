@@ -29,5 +29,11 @@
     <ClInclude Include="priority_queue.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\2026_5_6 List模拟实现\2026_5_3 List模拟实现\List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

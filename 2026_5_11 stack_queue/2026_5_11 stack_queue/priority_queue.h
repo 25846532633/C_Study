@@ -9,6 +9,51 @@ using namespace std;
 
 namespace bite
 {
+	//Ref - T&;Ptr - T*
+	template<class Iterator,class Ref,class Ptr>
+	struct ReverseIterator
+	{
+		typedef ReverseIterator<Iterator, Ref, Ptr> Self;
+
+		ReverseIterator(Iterator it)
+			:_it(it)
+		{}
+
+		Ref operator*()
+		{
+			Iterator tmp = _it;
+			return *(--tmp);
+		}
+
+		Ptr operator->()
+		{
+			return &(operator*());
+		}
+
+		Self& operator++()
+		{
+			--_it;
+			return *this;
+		}
+
+		Self& operator--()
+		{
+			++_it;
+			return *this;
+		}
+
+		bool operator!=(const Self& s)
+		{
+			return _it != s._it;
+		}
+
+	private:
+		Iterator _it;
+	};
+
+
+
+
 	template<class T>
 	class less 
 	{
@@ -32,6 +77,7 @@ namespace bite
 	class priority_queue
 	{
 	public:
+
 		void adjust_up(size_t child)
 		{
 			Compare com;

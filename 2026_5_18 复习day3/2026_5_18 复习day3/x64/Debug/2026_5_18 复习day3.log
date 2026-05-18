@@ -1,0 +1,5 @@
+﻿  test.cpp
+E:\CPlus\Code\C_Study\2026_5_18 复习day3\2026_5_18 复习day3\test.cpp(403,13): error C2969: 语法错误:“;”: 成员函数定义应以“}”结尾
+E:\CPlus\Code\C_Study\2026_5_18 复习day3\2026_5_18 复习day3\test.cpp(393,4): error C2614: “Stack”: 非法的成员初始化:“_array”不是基或成员
+E:\CPlus\Code\C_Study\2026_5_18 复习day3\2026_5_18 复习day3\test.cpp(402,1): error C2612: 基/成员初始值设定项列表中的非法后缀“private”
+E:\CPlus\Code\C_Study\2026_5_18 复习day3\2026_5_18 复习day3\test.cpp(407,1): error C1004: 发现意外的文件尾

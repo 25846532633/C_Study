@@ -166,6 +166,7 @@ namespace bit
 				_str = tmp;
 
 				_capacity = n;
+
 			}
 		}
 
@@ -250,12 +251,14 @@ namespace bit
 			//copy_on_write();
 
 			size_t len = strlen(str);
+			//1.ÏÈÅÐ¶ÏÊÇ·ñÐèÒªÀ©ÈÝ
 			if (_size + len > _capacity)
 			{
 				// À©ÈÝ
 				reserve(_size + len);
 			}
 
+			//2.ÒÆÎ»
 			size_t end = _size + len;
 			while (end > pos + len - 1)
 			{

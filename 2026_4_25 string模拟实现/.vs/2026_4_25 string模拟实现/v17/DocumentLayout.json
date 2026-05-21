@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\",
+  "WorkspaceRootPath": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|solutionrelative:2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|solutionrelative:2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|solutionrelative:2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B99AB19-D6B9-4621-8BE6-7D095ADCB2C3}|2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0.vcxproj|solutionrelative:2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 272,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "string.h",
-              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
-              "RelativeDocumentMoniker": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
-              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
-              "RelativeToolTip": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
-              "ViewState": "AQIAAI8BAAAAAAAAAAAAACEBAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-25T08:50:59.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "string_My.h",
-              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
               "RelativeDocumentMoniker": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
-              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
               "RelativeToolTip": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string_My.h",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAgwCYBAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-25T12:07:18.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "test.cpp",
-              "DocumentMoniker": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
               "RelativeDocumentMoniker": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
-              "ToolTip": "E:\\CPlus\\Algorithm Study\\Algorithm\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
               "RelativeToolTip": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-25T08:29:12.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "1c790fc3-8636-4733-ad4f-9d2c9c03bf26",
+        "Display": 0,
+        "X": 963,
+        "Y": 241,
+        "Width": 752,
+        "Height": 738,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "string.h",
+              "DocumentMoniker": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
+              "RelativeDocumentMoniker": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
+              "ToolTip": "E:\\CPlus\\Code\\C_Study\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
+              "RelativeToolTip": "2026_4_25 string\u6A21\u62DF\u5B9E\u73B0\\string.h",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-25T08:50:59.339Z",
               "EditorCaption": ""
             }
           ]

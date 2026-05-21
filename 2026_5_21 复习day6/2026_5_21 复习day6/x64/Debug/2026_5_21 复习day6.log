@@ -1,0 +1,4 @@
+﻿  test.cpp
+E:\CPlus\Code\C_Study\2026_5_21 复习day6\2026_5_21 复习day6\test.cpp(136,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\CPlus\Code\C_Study\2026_5_21 复习day6\2026_5_21 复习day6\test.cpp(137,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  2026_5_21 复习day6.vcxproj -> E:\CPlus\Code\C_Study\2026_5_21 复习day6\x64\Debug\2026_5_21 复习day6.exe

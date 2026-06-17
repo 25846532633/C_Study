@@ -1,0 +1,12 @@
+﻿  test.cpp
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(324,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(328,22): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(328,22): warning C4267:         with
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(328,22): warning C4267:         [
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(328,22): warning C4267:             _Ty=int
+E:\CPlus\Code\C_Study\2026_6_17 RBTree\2026_6_17 RBTree\RBTree.h(328,22): warning C4267:         ]
+  (编译源文件“test.cpp”)
+  
+  2026_6_17 RBTree.vcxproj -> E:\CPlus\Code\C_Study\2026_6_17 RBTree\x64\Debug\2026_6_17 RBTree.exe

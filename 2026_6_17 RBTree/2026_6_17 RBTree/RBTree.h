@@ -250,6 +250,7 @@ public:
 private:
 	bool Check(Node* root, int blackNum, const int refNum)
 	{
+		//遍历到NIL节点 - 判断是否当前路径的黑色节点数和参考数对得上
 		if (root == nullptr)
 		{
 			if (refNum != blackNum)
@@ -260,6 +261,7 @@ private:
 			return true;
 		}
 
+		//连续出现红色节点
 		if (root->_col == RED && root->_parent->_col == RED)
 		{
 			cout << root->_kv.first << "存在连续的红色节点" << endl;

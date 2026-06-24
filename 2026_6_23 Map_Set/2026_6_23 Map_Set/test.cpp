@@ -6,6 +6,6 @@ using namespace std;
 int main()
 {
 	//bit::test_set();
-	bit::test_map();
+	bit::test_map3();
 	return 0;
 }

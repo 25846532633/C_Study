@@ -82,6 +82,32 @@ struct __RBTreeIterator
 		return *this;
 	}
 
+	Self& operator--()
+	{
+		//1.左边节点不为空：找左子树的最右节点
+		if (_node->_left)
+		{
+			Node* rightMin = _node->_left;
+			while (rightMin->_right)
+			{
+				rightMin = rightMin->_right;
+			}
+			_node = rightMin;
+		}
+		else //2.左边节点为空：找父亲节点，且孩子必须在父亲的右边（这代表着中序遍历的最后一个节点）
+		{
+			Node* cur = _node;
+			Node* parent = cur->_parent;
+			while (cur && cur == parent->_left)
+			{
+				cur = parent;
+				parent = parent->_parent;
+			}
+
+			_node = parent;
+		}
+		return *this;
+	}
 };
 
 
@@ -92,6 +118,23 @@ class RBTree
 
 public:
 	typedef __RBTreeIterator<T, T&, T*> Iterator;
+	typedef __RBTreeIterator<T, const T&, const T*> ConstIterator;
+
+	RBTree() = default;//强制让编译器生成默认构造函数
+
+	RBTree(const RBTree<K, T, KeyOfT>& t)
+	{
+		swap(_root, t);
+		return *this;
+	}
+
+	~RBTree()
+	{
+		Destroy(_root);
+
+		_root = nullptr;
+	}
+
 
 	Iterator Begin()
 	{
@@ -109,7 +152,24 @@ public:
 		return Iterator(nullptr);
 	}
 
-	Node* Find(const K& key)
+	ConstIterator Begin() const
+	{
+		Node* leftMin = _root;
+		while (leftMin && leftMin->_left)
+		{
+			leftMin = leftMin->_left;
+		}
+
+		return Iterator(leftMin);
+	}
+
+	ConstIterator End() const
+	{
+		return Iterator(nullptr);
+	}
+
+
+	Iterator Find(const K& key)
 	{
 		Node* cur = _root;
 		KeyOfT kot;
@@ -125,20 +185,20 @@ public:
 			}
 			else
 			{
-				break;
+				return Iterator(cur);
 			}
 		}
 
-		return cur;
+		return End();
 	}
 
-	bool Insert(const T& data)
+	pair<Iterator,bool> Insert(const T& data)
 	{
 		if (_root == nullptr)
 		{
 			_root = new Node(data);
 			_root->_col = BLACK;
-			return true;
+			return make_pair(Iterator(_root),true);
 		}
 
 		KeyOfT kot;
@@ -161,11 +221,12 @@ public:
 			}
 			else
 			{
-				return false;
+				return make_pair(Iterator(cur),false);
 			}
 		}
 
 		cur = new Node(data);
+		Node* newnode = cur;
 		cur->_col = RED; // 新增节点给红色
 		if (kot(parent->_data) < kot(data))
 		{
@@ -264,7 +325,7 @@ public:
 
 		_root->_col = BLACK;
 
-		return true;
+		return make_pair(Iterator(newnode),true);
 	}
 
 	void RotateR(Node* parent)
@@ -363,6 +424,18 @@ public:
 	}
 
 private:
+
+	void Destroy(Node* root)
+	{
+		if (root == nullptr)
+			return;
+
+		Destroy(root->_left);
+		Destroy(root->_right);
+		delete root;
+		root = nullptr;
+	}
+
 	bool Check(Node* root, int blackNum, const int refNum)
 	{
 		if (root == nullptr)

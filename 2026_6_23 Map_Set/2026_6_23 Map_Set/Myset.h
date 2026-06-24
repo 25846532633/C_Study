@@ -16,6 +16,7 @@ namespace bit
 		};
 	public:
 		typedef typename RBTree<K, const K, SekKeyofT>::Iterator iterator;
+		typedef typename RBTree<K, const K, SekKeyofT>::ConstIterator const_iterator;
 
 		iterator begin()
 		{
@@ -27,9 +28,24 @@ namespace bit
 			return _t.End();
 		}
 
-		bool insert(const K& key)
+		const_iterator begin()const
+		{
+			return _t.Begin();
+		}
+
+		const_iterator end() const
+		{
+			return _t.End();
+		}
+
+		pair<iterator, bool> insert(const K& key)
 		{
 			return _t.Insert(key);
+		}
+
+		iterator find(const K& key)
+		{
+			_t.Find(key);
 		}
 
 	private:

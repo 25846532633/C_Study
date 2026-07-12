@@ -14,6 +14,8 @@ namespace bit
 			}
 		};
 
+		
+
 	public:
 		typedef typename RBTree<K, pair<const K, V>, MapKeyofT>::Iterator iterator;
 		typedef typename RBTree<K, const K, MapKeyofT>::ConstIterator const_iterator;

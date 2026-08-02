@@ -1,0 +1,6 @@
+﻿  test.cpp
+E:\CPlus\Code\C_Study\2026_8_2 特殊类的设计\2026_8_2 特殊类的设计\test.cpp(97,3): warning C4150: 删除指向不完整“HeapOnly”类型的指针；没有调用析构函数
+  E:\CPlus\Code\C_Study\2026_8_2 特殊类的设计\2026_8_2 特殊类的设计\test.cpp(92,7):
+  参见“HeapOnly”的声明
+  
+  2026_8_2 特殊类的设计.vcxproj -> E:\CPlus\Code\C_Study\2026_8_2 特殊类的设计\x64\Debug\2026_8_2 特殊类的设计.exe
